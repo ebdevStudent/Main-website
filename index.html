@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <title>
+        iframe and anchor
+    </title>
+</head>
+<body>
+<nav class="navbar-inverse" style="position:absolute;top:0;z-index:9999;width:100% ;">
+<div class="navbar-header">
+ <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+ </button>  
+<a class="navbar-brand" href="#">Rahul Allala</a>
+</div> 
+<div class="collapse navbar-collapse" id="mymenu">
+    <ul class="nav navbar-nav">
+<li><a href="#home">Home</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#writings">Writings</a></li>
+<li><a href="#mywork">My Work</a></li>
+<li><a href="#aboutme">About Me</a></li>
+</ul>
+</div>
+
+</nav>
+
+
+
+<center>
+<br>
+<br>
+
+
+<section id="home">
+
+
+    <img class="img-responsive" src="treeimage.png" id="img1" onmouseover="changeimg1()"></a>
+    <br>
+    <input type="text" placeholder="(Please enter your name.)" id="input1" onmouseover="ipt1()">
+    <br>
+    <button type="button" id="button1" onclick="btn1()">click me</button>
+</section>
+
+
+
+<section id="videos">
+    <h1>Videos</h1>
+    <div class="line"></div>
+    <iframe src="https://youtu.be/W6NZfCO5SIk" height="400" width="1000"></iframe>
+</section>
+
+
+
+
+<section id="writings">
+    <h1>Writings</h1>
+    <div class="line"></div>
+    <iframe height="400" width="1000" src="https://en.wikipedia.org/wiki/Coronavirus_disease_2019"></iframe>
+</section>
+
+
+
+<section id="bestwork">
+    <h1>Best Work</h1>
+    <h2> Here is a slideshow of my best work:</h2>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+        <div class="item active">
+            <center>
+                <a href="https://studio.code.org/projects/playlab/z6nNakQ2h-xR2wg0Xdh3BZ4N3yvEU3ysYUvn7OE-NHw" target="_blank">
+                    <img src="codeorgdragonattack.png" class="img-responsive">
+                </a>
+                <div class="carousel-content">
+                    <p>Dragon Attack!</p>
+                </div>
+            </center>
+        </div>
+        <div class="item">
+            <center>
+                <a href="https://studio.code.org/projects/playlab/KZj3fXlS7E3SxpHApkqvWmmbzu69Tsn5haubTv1he4M" target="_blank">
+                    <img src="codeorgfightcorona.png" class="img-responsive">
+                </a>
+                <div class="carousel-content">
+                    <p>Fight Against Corona!</p>
+                </div>
+            </center>
+        </div>
+    
+    </div>
+    
+<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#mycarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+    </div>
+</section>
+
+
+
+
+<section id="mywork">
+    <h1>My Work</h1>
+    <div class="line"></div>
+    <i><a href="page2.html">go to page 2</a></i>
+<br>
+<a href="https://www.facebook.com" target="_blank"> Facebook</a>
+<br>
+<h2 class="text-capitalize">list of books</h2>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#Dragon_heart_:_land_of_pain">
+    <img src="book1.jpg" class="img-responsive">
+    <p class="text-primary">
+        Dragon heart: Land Of Pain
+    </p>
+</div>
+<div class="modal fade" id="Dragon_heart_:_land_of_pain">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                &times;
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="book1.jpg">
+    <p>His name is Hadjar Darkhan, and he still follows the call of his dragon heart.
+
+        The War Games ended a few months ago, and the various generals of Darnassus, led by the Emperor, realized that just the disciples of the best martial arts Schools and even the smaller, lesser schools wouldn’t be able to strengthen the Darnassian Army enough to prepare it for what was coming. A war was on the horizon, and every weapon would matter, so losing even the most inexperienced warriors was an unthinkable prospect.
+        
+        The Empire had never prepared for battle on such a massive scale before. They’d gathered tens of thousands of Spirit Knights and hundreds of thousands of Heaven Soldiers in just a short time. But would that be enough to combat the countless hordes of the enemy? Or were these just the death throes of a once vast Empire?
+        
+        Hadjar, whether he wanted to or not, would be part of this upcoming war. Moreover, his role might end up being far more significant than he’d originally assumed.
+        Before a decisive battle begins, he must plunge into a maelstrom of war preparations, which doesn’t bode well for him…
+    </p>
+    <br>
+    <a href="https://www.amazon.com/Land-Pain-Dragon-Heart-Book-ebook/dp/B08KY9LH1W">Buy this book on amazon</a>
+        </div>    
+    </div>
+    </div>
+</div>
+
+
+</section>
+
+<br>
+<section id="aboutme">
+    <h1>About Me</h1>
+    <div class="line"></div>
+    <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24335.506304546678!2d-74.6418855927331!3d40.32152713006595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e0ceeee63f7f%3A0x7185a0a5d2696f0!2sPrinceton%20Junction%2C%20West%20Windsor%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1614305028395!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br>
+    <br>
+    <a href="mailto:rahulallala@gmail.com?Subject=Hi!! I love your website!">
+        <i class="fa fa-envelope"></i> &nbsp;&nbsp;
+        <h3>rahulallala@gmail.com</h3>
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fa fa-instagram"></i>&nbsp;&nbsp;
+        <h3>My instagram</h3>
+    </a>         
+    <br>
+    <br>
+    <form>
+        <span> Name: </span>
+        <input type="text" name="nn" required>
+        <br>
+        <span> Comment: </span>
+        <input type="text" name="cc" required>
+        <br>
+        <input type="submit" value="Add Comment">
+    </form>   
+</section>
+
+
+<section id="movies">
+    <h2 class="text-capitalize">movie reviews</h2>
+    <div class="bg-primary" data-toggle="collapse" data-target="#movie1" style="display: inline-block; width:80%; font-size:25px; text-align:left; padding:10px;">
+        <span class="glyphicon glyphicon-film"></span>
+        Avengers Endgame
+        <i class="fa fa-sort-desc" style="float:right;"></i>
+    </div>
+    <div id="movie1" class="collapse" style="width:80%;">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="avengersendgamepic.png" class="img-responsive" style="margin: 15px;">
+         </div>
+         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+             <h5 class="text-capitalize text-left text-success">Excelent film to watch
+                 <span class="glyphicon glyphicon-star" style="color:gold ;"></span>
+                 <span class="glyphicon glyphicon-star" style="color:gold ;"></span>
+                 <span class="glyphicon glyphicon-star" style="color:gold ;"></span>
+                 <span class="glyphicon glyphicon-star" style="color:gold ;"></span>
+                 <span class="glyphicon glyphicon-star" style="color:gold ;"></span>
+             </h5>
+             <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite impressive. But most is comic book style figand battles.Must go to bathroom just before the movie because it does last 3 hours all worthwhile.</p>
+         </div>
+    </div>
+</section>
+<br><br>
+  </center>
+</body>
+</html>
